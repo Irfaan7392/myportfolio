@@ -534,4 +534,67 @@ body{
     .skill-detail span{
         font-size: 3vh;
     }
+
+    /* contact page */
+    .more{
+        position: relative;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+        align-items:flex-start;
+        padding: 5vw;
+        top: 0vw;
+    }
+    #footer{
+        height: fit-content;
+        flex-direction: column-reverse;
+        gap: 2vh;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.8);
+        padding-top: 2vh;
+        margin: 0 auto;
+        position: relative;
+    }
+    #page7-image{
+        height: 70vh;
+    }
+    .bottom-animation {
+        height: 3vw
+    }
+
+    .page7-email{
+        position: relative;
+        left: 50vh;
+        width:30vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .page7-email div span{
+        font-size: 2.3vh;
+    }
+    
+    .arrow{
+        height: 6vw;
+    }
+    #arrow-image{
+        width: 6vh !important;
+    }
+    .input-box input{
+        width: 30vh;
+        height: 6vh;
+        font-size: 2.3vh;
+    }
+    .input-box input::placeholder{
+        font-size: 2.3vh;
+    }
+    .thanks{
+        width: 30vh;
+        height: 6vh;
+    }
+    .thanks span{
+        /* font-family: roman; */
+        font-size: 2.3vh;
+    }
 }
