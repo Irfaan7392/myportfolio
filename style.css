@@ -184,6 +184,7 @@ font-weight: 700;
     width: 200px;
     object-fit: cover;
     border-radius: 50%;
+    background-color: rgb(110, 87, 224);
 }
 
 .designation{
