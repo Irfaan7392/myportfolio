@@ -418,14 +418,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 .visit-site a{
     text-decoration: none;
     font-size: 2vw;
     font-weight: 600;
     color: white;
-    mix-blend-mode: difference
+    mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 
