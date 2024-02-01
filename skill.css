@@ -407,9 +407,27 @@ body{
     overflow: hidden;
 }
 #page5-heading-image{
+    position:relative;
     width: 55%;
     height: 100%;
 }
+.visit-site{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visit-site a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    mix-blend-mode: difference
+}
+
+
 #page5-heading-image video{
     width: 100%;
     height: 100%;
