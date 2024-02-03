@@ -186,6 +186,32 @@ font-weight: 700;
     border-radius: 50%;
     background-color: rgb(110, 87, 224);
 }
+/* hire me botton */
+.hire-me a{
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 4vh;
+    font-weight: 500;
+}
+.hire-me{
+    box-shadow: 1px 1px 5px 2px white;
+    background-color: transparent;
+    /* mix-blend-mode: difference; */
+    height: 8.5vh;
+    width: 21vw;
+    border: none;
+    margin: top;
+    margin-top: 3vw;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+.hire-me:hover{
+    background-color: blue;
+    transition: all .3s ease-in-out;
+}
 
 .designation{
     height: 30px;
