@@ -460,4 +460,12 @@ font-weight: 700;
 .nav-link{
     height: fit-content;
 }
+.hire-me{
+    background-color: rgb(77, 77, 255);
+    width: 21vh;
+    margin: top;
+}
+.hire-me a{
+    font-size: 2.5vh;
+}
 }
