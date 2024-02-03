@@ -299,3 +299,14 @@ gsap.to(".top-arrow img",{
 document.querySelector("#contact>a").addEventListener("click", (event)=>{
   event.preventDefault();
 })
+//forced download
+let link = document.querySelector(".nav-link:last-child a");
+console.log(link)
+link.addEventListener("click", ()=>{
+  let bodyLink = document.createElement('a');
+    bodyLink.href = '/thumbnails/Resume.pdf';
+    bodyLink.download = 'Resume.pdf';
+    document.body.appendChild(bodyLink);
+    bodyLink.click();
+    document.body.removeChild(bodyLink);
+})
